@@ -1,0 +1,92 @@
+.main{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 50vh;
+    background-color: #4447f5;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-left: 300px;
+}
+
+.title h1{
+    font-size: 65px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: left;
+    width: 500px;
+}
+
+.title p{
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: left;
+    width: 600px;
+}
+
+.title button{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ffffff;
+    color: black;
+    font-size: 18px;
+    font-family:'Franklin Medium', Arial, sans-serif ;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.title button:hover{
+
+    background-color: #9aadec;
+}
+
+/* hero.module.css */
+
+.submain {
+    display: flex;
+    justify-content: space-between; /* Distribuir elementos a lo largo del contenedor */
+    align-items: center; /* Centrar elementos verticalmente */
+    margin-top: 50px; /* Espacio superior */
+}
+
+.leftSide {
+    flex: 1; /* Ocupar el espacio disponible */
+    margin-right: 20px; /* Espacio entre el lado izquierdo y derecho */
+}
+
+.rightSide {
+    flex: 1; /* Ocupar el espacio disponible */
+    display: flex;
+    justify-content: flex-end; /* Alinear elemento a la derecha */
+    align-items: center; /* Centrar elementos verticalmente */
+}
+
+.subtitle {
+    font-size: 30px; /* Tamaño de fuente */
+    font-weight: bold; /* Peso de fuente */
+    margin-bottom: 10px; /* Espacio inferior */
+    margin-left: 300px;
+    width: 400px;
+}
+
+.phrase {
+    font-size: 16px; /* Tamaño de fuente */
+    color: #666; /* Color de texto */
+    margin-bottom: 20px; /* Espacio inferior */
+    margin-left: 300px;
+}
+
+/* Ajustar estilos de la imagen según sea necesario */
+.rightSide img {
+    height: auto;
+    margin-right: 200px;
+}

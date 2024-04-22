@@ -1,0 +1,78 @@
+/* navbar.module.css */
+
+/* Navbar container */
+.navbar {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Distribute items evenly along the main axis */
+    background-color: #4447f5; /* Background color */
+    padding: 10px; /* Padding around the navbar */
+}
+
+/* Title styling */
+.title {
+    font-size: 20px; /* Font size */
+    font-weight: bold; /* Bold font weight */
+    color: #ffffff; /* Text color */
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; /* Font family */
+    text-decoration: none; /* Remove underline from links */
+    display: flex; /* Display items horizontally */
+    align-items: center; /* Align items vertically */
+    margin-right: 20px;
+}
+
+.title svg {
+    margin: 15px; /* Add margin to the right of the SVG icon */
+}
+
+/* Menu styling */
+.menu {
+    list-style: none; /* Remove default list styles */
+    display: flex; /* Display items horizontally */
+    align-items: center; /* Align items vertically */
+}
+
+/* Individual menu item styling */
+.menu li {
+    margin-right: 10px; /* Add right margin between menu items */
+}
+
+/* Link styling */
+.menu li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #ffffff; /* Text color */
+    padding: 5px; /* Padding around link text */
+}
+
+/* Link hover effect */
+.menu li a:hover {
+    color: #9aadec; /* Change text color on hover */
+}
+
+.usersActions {
+    display: flex;
+    align-items: center;
+}
+
+.usersActions a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.usersActions a:hover {
+    color: #9aadec;
+}
+
+.getStarted {
+    border: solid 1px #ffffff;
+    color: #4447f5;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.getStarted:hover {
+    border: solid 1px #b085ff;
+    color: #4447f5;
+}
